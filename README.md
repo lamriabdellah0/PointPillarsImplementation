@@ -34,9 +34,9 @@ Below are example detection results on test images.
 - **Detection on Image 000098**
 - **Detection on Image 000138**
 
-![](./figures/000080.png-3d_bbox.jpeg)
-![](./figures/000098.png-3d_bbox.jpeg)
-![](./figures/000138.png-3d_bbox.jpeg)
+![](./figures/000080.png-3d bbox.jpeg)
+![](./figures/000098.png-3d bbox.jpeg)
+![](./figures/000138.png-3d bbox.jpeg)
 ## Execution Guide
 To run this project, follow the steps below.
 
