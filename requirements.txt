@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+opencv-python
+matplotlib
+argparse
+scipy
+tqdm
+pandas
+pyyaml
+tensorboard
+open3d
+numba
+setuptools
