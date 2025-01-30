@@ -34,53 +34,51 @@ Below are example detection results on test images.
 - **Detection on Image 000098**
 - **Detection on Image 000138**
 
-![](./figures/000080.png-3d_bbox.jpg)
-![](./figures/000098.png-3d_bbox.jpg)
-![](./figures/000138.png-3d_bbox.jpg)
-## **Execution Guide**
+![](./figures/000080.png-3d_bbox.jpeg)
+![](./figures/000098.png-3d_bbox.jpeg)
+![](./figures/000138.png-3d_bbox.jpeg)
+## Execution Guide
 To run this project, follow the steps below.
 
-### **1. Download and Set Up the Dataset**
+### 1. Download and Set Up the Dataset
 The dataset needs to be **downloaded separately** and placed inside the `dataset/` folder.
 
-### **2. Install Dependencies**
+### 2. Install Dependencies
 Install required dependencies using:
-```bash
+```
 pip install -r requirements.txt
+```
+
+Then, set up the environment:
+```
 python setup.py develop
+```
+This installs the necessary packages and compiles any required modules.
 
-
----
-
-### **Dataset Preprocessing**
-```markdown
-### **3. Preprocess the Dataset**
+### 3. Preprocess the Dataset
 Before training, preprocess the dataset. If the dataset is inside the project folder:
-```bash
+```
 python pre_process_kitti.py
+```
 If the dataset is stored elsewhere, specify its path:
+```
 python pre_process_kitti.py --data_root your_path_to_kitti
+```
 
----
-
-### **Training the Model**
-```markdown
-### **4. Train the Model**
+### 4. Train the Model
 To train the model, use:
-```bash
+```
 python train.py
-For a dataset in a different location
+```
+For a dataset in a different location:
+```
 python train.py --data_root your_path_to_kitti
+```
 
----
-
-### **Running Inference**
-```markdown
-### **5. Run Inference on Test Images**
+### 5. Run Inference on Test Images
 To test an image, run:
-```bash
+```
 python test.py --img_num 000002
-This automatically finds the corresponding .bin, .txt, and .png files in dataset/demo_data/test/.
-
----
+```
+This automatically finds the corresponding `.bin`, `.txt`, and `.png` files in `dataset/demo_data/test/`.
 
