@@ -26,10 +26,6 @@ The following plots compare the model's performance with results from the origin
 ## **Detection Visualization**
 Below are example detection results on test images.
 
-![](./figures/pc_pred_000134.png)
-![](./figures/img_3dbbox_000134.png)
-
-### **Additional Sample Images**
 - **Detection on Image 000080**
 ![](./figures/000080_3d_bbox.jpeg)
 - **Detection on Image 000098**
