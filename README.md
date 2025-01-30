@@ -31,12 +31,12 @@ Below are example detection results on test images.
 
 ### **Additional Sample Images**
 - **Detection on Image 000080**
+![](./figures/000080_3d_bbox.jpeg)
 - **Detection on Image 000098**
+ ![](./figures/000098_3d_bbox.jpeg) 
 - **Detection on Image 000138**
+![](./figures/000138_3d_bbox.jpeg)
 
-![](./figures/000080.png-3d bbox.jpeg)
-![](./figures/000098.png-3d bbox.jpeg)
-![](./figures/000138.png-3d bbox.jpeg)
 ## Execution Guide
 To run this project, follow the steps below.
 
